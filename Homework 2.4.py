@@ -22,7 +22,7 @@ def file_sql_list():
 
 def search_list(your_list):
     search_list = list()
-    for file in Your_list:
+    for file in your_list:
         with open(os.path.join(files_directory, file)) as f:
             file_information = f.read()
             if world in file_information:
