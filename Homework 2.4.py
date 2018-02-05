@@ -20,7 +20,7 @@ def file_sql_list():
 
 
 
-def search_list(Your_list):
+def search_list(your_list):
     search_list = list()
     for file in Your_list:
         with open(os.path.join(files_directory, file)) as f:
